@@ -28,10 +28,10 @@
   font-weight: 900;
   src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-/* * {
+ * {
   margin: 0;
   box-sizing: border-box;
-} */
+} 
 :root {
   --color-primary-light: #faf4ea;
   --color-primary-dark: #31261a;
