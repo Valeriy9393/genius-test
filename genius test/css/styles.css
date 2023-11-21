@@ -36,6 +36,7 @@
   --color-primary-dark: #31261a;
   --color-brand: #819b57;
   --color-text: #465929;
+  --color-decorative: #cfcfbc;
 }
 body {
   color: var(--color-primary-dark);
@@ -59,7 +60,6 @@ ul {
   padding: 0;
 }
 address {
-  
   font-style: normal;
 }
 .visually-hidden {
@@ -100,7 +100,7 @@ address {
 .link:hover {
   color: var(--color-brand);
   font-weight: 600;
-} 
+}
 
 /* Heder */
 
@@ -126,6 +126,10 @@ address {
 
 .hero-section {
   padding: 272px 0;
+  background-image: url(../images/hero-section-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 .hero-title {
   margin-bottom: 0;
@@ -146,28 +150,32 @@ address {
 
 /*advantages-section */
 
-.advantages-section{
-background-color: var(--color-brand);
-padding: 16px 0;
+.advantages-section {
+  background-color: var(--color-brand);
+  padding: 16px 0;
 }
 .advantages-list {
-  
   display: flex;
   gap: 40px;
   justify-content: space-between;
- 
 }
 .advantages-item {
   font-size: 20px;
   font-weight: 300;
   color: var(--color-primary-light);
-
 }
 
 /* tradision-sections*/
 
 .tradision-sections {
   padding-top: 96px;
+}
+.tradision-container {
+  display: flex;
+  justify-content: space-between;
+}
+.tradition-content {
+  max-width: 710px;
 }
 .tradision-title {
   margin-bottom: 42px;
@@ -185,10 +193,12 @@ padding: 16px 0;
   color: var(--color-brand);
   font-weight: 600;
 }
-
-.section-title .cooks {
-  color: var(--color-brand);
+.tradision-text.limited {
+  max-width: 338px;
 }
+
+/* chefs section */
+
 .chef-title {
   font-size: 40px;
   font-weight: 600;
@@ -197,6 +207,30 @@ padding: 16px 0;
 .chefs-title {
   margin-bottom: 80px;
 }
+
+/* Formats */
+.formats-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.formats-item {
+  flex-basis: calc((100% - 40px) / 3);
+}
+.format-card {
+  height: 444px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(49, 38, 26, 0) 55.21%,
+    rgba(49, 38, 26, 0.71) 72.92%,
+    var(--color-primary-dark) 100%
+  );
+  padding: 24px;
+  border: 1px solid lightgrey;
+  border-radius: 16px;
+}
+
 .formats-title {
   margin-bottom: 80px;
 }
@@ -207,6 +241,16 @@ padding: 16px 0;
 .format-text {
   font-size: 14px;
   font-weight: 300;
+}
+
+/* footer */
+
+.footer {
+  background-image: url(../images/footer-background.png);
+  background-color: var(--color-primary-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .contact-title {
   margin-bottom: 16px;
