@@ -70,30 +70,34 @@
     <section class="section" id="chefs-sections">
       <div class="container">
         <h2 class="chefs-title section-title centered">Нащі найкращі <span class="cooks">шеф кухарі</span> </h2>
-        <ul>
-          <li>
-            <article>
-              <img class="chef-image" src="./images/baker-Nasta.jpg" alt="foto baker-Nasta">
-              <h3 class="chef-title">Настя</h3>
-              <p>Привіт, я Настя!</p>
-              <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
-              <p>Я випічу для вас найсмачніщі вироби!</p>
+        <ul class="chef-list">
+          <li class="chef-item">
+            <article class="chef-card">
+              <img class="chef-photo" src="./images/baker-Nasta.jpg" alt="foto baker-Nasta">
+              <div class="chef-user">
+                <h3 class="chef-title">Настя</h3>
+                <p>Привіт, я Настя!</p>
+                <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
+                <p>Я випічу для вас найсмачніщі вироби!</p>
+              </div>
             </article>
           </li>
-          <li>
+          <li class="chef-item">
             ar
-            <article>
-              <img class="chef-image" src="./images/baker-Vlad.jpg" alt="foto baker-Vlad">
-              <h3 class="chef-title">Влад</h3>
-              <p>Привіт, я Влад!</p>
-              <p>
-                SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами
-                через нашу випічку!
-              </p>
-              <p>
-                Мій кодитерський стаж вже 18 років.Я зроблю для вас унікальну
-                начинку на будь який смак!
-              </p>
+            <article class="chef-card">
+              <img class="chef-photo" src="./images/baker-Vlad.jpg" alt="foto baker-Vlad">
+              <div class="chef-user">
+                <h3 class="chef-title">Влад</h3>
+                <p>Привіт, я Влад!</p>
+                <p>
+                  SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами
+                  через нашу випічку!
+                </p>
+                <p>
+                  Мій кодитерський стаж вже 18 років.Я зроблю для вас унікальну
+                  начинку на будь який смак!
+                </p>
+              </div>
             </article>
           </li>
         </ul>
@@ -102,15 +106,20 @@
     <section class="section" id="formats-sections">
       <div class="container">
         <h2 class="formats-title section-title centered">Формати</h2>
+        <button class="carousel-button" type="button">
+          <svg class="carousel-arrow" width="16" height="16">
+            <use href="./images/icons.svg#icon-Arrow"></use>
+          </svg>
+        </button>
         <ul class="formats-list">
           <li class="format-item">
             <article class="format-card">
               <h3 class="format-title" lang="en">Walrus</h3>
               <div class="format-text">
-                <p>Площа: до 120 м2</p> 
+                <p>Площа: до 120 м2</p>
                 <p>Меню: розширене меню</p>
-                <p>Штат: 2 продавці-касири, 2 пекарі, 
-                   2 помічники пекаря, 2 офіціанти-різнороби
+                <p>Штат: 2 продавці-касири, 2 пекарі,
+                  2 помічники пекаря, 2 офіціанти-різнороби
                 </p>
                 <p>Посадкові місця: є</p>
               </div>
@@ -165,6 +174,11 @@
             </article>
           </li>
         </ul>
+        <button class="carousel-button" type="button">
+          <svg class="carousel-arrow" width="16" height="16">
+            <use href="./images/icons.svg#icon-Arrow"></use>
+          </svg>
+        </button>
       </div>
     </section>
     <div class="container">
@@ -201,8 +215,21 @@
               вул. Січових Стрільців
               54</a>
           </li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li>
+            <a href="#">
+              <svg class="address-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <svg class="address-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          </li>
         </ul>
         <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
         <p class="adress-copyrigft">© 2022 Дані захищені</p>
