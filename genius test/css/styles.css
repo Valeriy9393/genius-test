@@ -418,6 +418,11 @@ address {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.backdrop.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
 .modal {
   position: relative;
   width: 880px;
@@ -425,6 +430,7 @@ address {
   background-color: var(--color-primary-light);
   border-radius: 32px;
 }
+
 .modal-btn-close {
   position: absolute;
   top: 40px;
