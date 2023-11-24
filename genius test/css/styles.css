@@ -458,7 +458,7 @@ address {
   padding: 128px;
   background-color: var(--color-primary-light);
   border-radius: 32px;
-  /* overflow-y: auto; */
+  overflow-y: auto;
 }
 
 .modal-btn-close {
@@ -491,29 +491,55 @@ address {
   border: 1px solid var(--color-secondary-dark);
   background-color: transparent;
 }
-.form-input:focus{
-  border-color: var(--color-brand) ;
+.form-input:focus {
+  border-color: var(--color-brand);
   outline: none;
 }
-.form-input::placeholder{
+.form-input::placeholder {
   color: var(--color-secondary-dark);
 }
-.form-input:focus::placeholder{
+.form-input:focus::placeholder {
   color: var(--color-primary-dark);
 }
-.form-button{
+.form-button {
   margin: 0 auto 24px;
   display: block;
 }
-.form-terms{
-  margin: 0 auto; 
+.form-terms {
+  margin: 0 auto;
   max-width: 220px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
 }
-.font-link{
-color: var(--color-primary-dark);
-text-underline-offset: 2px;
+.font-link {
+  color: var(--color-primary-dark);
+  text-underline-offset: 2px;
 }
+
+/* Checkbox */
+
+/* .checkbox {
+  position: relative;
+}
+.checkbox-label {
+  padding-left: 24px;
+}
+.checkbox-label::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  border: 1px solid var(--color-primary-dark);
+  border-radius: 2px;
+  content: "";
+}
+.checkbox-input {
+  appearance: none;
+}
+.checkbox-input:checked + .checkbox-label::before {
+  background-color: var(--color-text);
+} */
