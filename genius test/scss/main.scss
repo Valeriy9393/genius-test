@@ -1,0 +1,67 @@
+@import "./utils/fonts";
+@import "./utils/varieble.scss";
+@import "./base";
+@import "./utils/utils";
+@import "./utils/texts.scss";
+
+/* section */
+
+@import "./layouts/section";
+
+/* container*/
+
+@import "./layouts/container";
+
+@import "./components/buttons";
+@import "./components/links";
+
+/* Header */
+ 
+@import "./layouts/header";
+
+/* hero-title */
+
+@import "./layouts/hero-section";
+
+/*advantages-section */
+
+@import "./layouts/advantages-section";
+
+/* tradision-sections*/
+
+@import "./layouts/tradision-sections";
+
+/* chefs section */
+
+@import "./layouts/chef-section";
+
+/* Formats */
+
+@import "./layouts/formats-section";
+
+/* carousel-button */
+
+@import "./components/carousel-button";
+
+/* contact section */
+
+@import "./layouts/contact-section";
+
+/* footer */
+
+@import "./layouts/footer";
+
+/* Model */
+
+@import "./layouts/modal";
+
+/* Form */
+
+@import "./layouts/form-modal";
+
+/* Checkbox */
+
+/*  @import "./components/checkbox"; */
+
+
+ /*# sourceMappingURL=main.css.map */
