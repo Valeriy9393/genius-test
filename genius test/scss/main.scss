@@ -34,10 +34,12 @@
 /* chefs section */
 
 @import "./layouts/chef-section";
+@import "./components/chef-card";
 
 /* Formats */
 
 @import "./layouts/formats-section";
+@import "./components/format-card";
 
 /* carousel-button */
 
@@ -46,6 +48,7 @@
 /* contact section */
 
 @import "./layouts/contact-section";
+@import "./components/form-terms";
 
 /* footer */
 
@@ -54,6 +57,7 @@
 /* Model */
 
 @import "./layouts/modal";
+
 
 /* Form */
 
